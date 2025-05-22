@@ -4,7 +4,7 @@ Repositorio para el proyecto **Challenge** desarrollado en Java.
 
 ## Estructura del Proyecto
 
-challenge/
+challenge/  
 ├── .idea/ # Archivos de configuración de IntelliJ IDEA  
 ├── src/ # Código fuente del proyecto  
 ├── .gitignore # Exclusiones de archivos para Git  
@@ -28,7 +28,7 @@ git clone https://github.com/MiguelAngelLeon/challenge.git
 
 El código fuente se encuentra dentro de la carpeta [`src/`](https://github.com/MiguelAngelLeon/challenge/tree/main/src). Aquí están los archivos principales y su propósito dentro del proyecto:
 
-src/
+src/  
 ├── Principal.java  
 ├── Presentacion.java  
 └── ConversorMoneda.java  
