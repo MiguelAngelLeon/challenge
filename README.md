@@ -23,13 +23,33 @@ text
 1. **Clona el repositorio:**
 git clone https://github.com/MiguelAngelLeon/challenge.git
 
-text
 2. **Abre el proyecto en IntelliJ IDEA** o tu IDE Java preferido.
-3. **Ejecuta la clase principal** ubicada en el directorio `src/` (verifica el archivo principal según la lógica del proyecto).
+3. **Ejecuta la clase principal** ubicada en el directorio `src/`.
 
-## Estructura del código fuente
+## Estructura del código fuente (`src/`)
 
-El código fuente se encuentra dentro de la carpeta `src/`. Si el proyecto contiene paquetes, navega dentro de `src/` para encontrar las clases principales y auxiliares.
+El código fuente se encuentra dentro de la carpeta [`src/`](https://github.com/MiguelAngelLeon/challenge/tree/main/src). Aquí están los archivos principales y su propósito dentro del proyecto:
+
+src/
+├── Principal.java
+├── Presentacion.java
+└── ConversorMoneda.java
+
+### Descripción de los archivos:
+
+- **Principal.java**  
+  Es la clase principal del proyecto y el punto de entrada de la aplicación. Implementa un conversor de monedas que interactúa con el usuario a través de un menú en consola. Permite convertir entre diferentes monedas (USD, ARS, BRL, COP) consultando tasas de cambio en tiempo real mediante una API externa. Utiliza la librería Gson para procesar respuestas en formato JSON.
+
+- **Presentacion.java**  
+  Esta clase contiene el método `exibirMenu()`, encargado de mostrar el menú interactivo en consola. Presenta las opciones de conversión de moneda disponibles y guía al usuario en el uso del programa.
+
+- **ConversorMoneda.java**  
+  Es un record Java que modela la estructura de la respuesta JSON recibida desde la API de tasas de cambio. Almacena las tasas de conversión en un objeto `JsonObject` para su posterior consulta.
+
+---
+
+Cada archivo cumple una función específica para lograr la conversión de monedas de manera interactiva y dinámica.  
+Puedes modificar o ampliar estas clases para agregar nuevas funcionalidades o adaptar el conversor a tus necesidades.
 
 ## Contribuir
 
