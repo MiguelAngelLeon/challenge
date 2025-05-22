@@ -11,8 +11,6 @@ challenge/
 ├── challenge.iml # Archivo de módulo de IntelliJ IDEA
 └── README.md # Este archivo
 
-text
-
 ## Tecnologías
 
 - **Lenguaje:** Java
